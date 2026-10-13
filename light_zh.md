@@ -23,16 +23,16 @@
 |  20   | 幻彩静态颜色过渡 | dream_static _fade  |     双向     |   enum   |       否       | 0: 关闭渐变；1: 开启渐变|
 |  21   |  手机麦采集数据  |      music_fft      |     只写     |   string   |       否       | 无|
 |  23   |     剩余电量     |     dump_energy     |     只读     |   number   |       否       | 0~100|
-|  24   |     电池电压     |    cell_voltage     |     只读     |   number   |       否       | 0~暂无范围 单位mV|
-|  25   |     输入电流     |  incoming_current   |     只读     |   number   |       否       | 0~暂无范围 单位mA|
-|  26   |     输出电流     |   current_output    |     只读     |   number   |       否       | 0~暂无范围 单位mA|
-|  27   |     设备温度     |     temperature     |     只读     |   number   |       否       | -127C° ~ 1000C°  传入值 0~1127|
+|  24   |     电池电压     |    cell_voltage     |     只读     |   number   |       否       | 下限：0，上限待确认，单位：mV|
+|  25   |     输入电流     |  incoming_current   |     只读     |   number   |       否       | 下限：0，上限待确认，单位：mA|
+|  26   |     输出电流     |   current_output    |     只读     |   number   |       否       | 下限：0，上限待确认，单位：mA|
+|  27   |     设备温度     |     temperature     |     只读     |   number   |       否       | -127℃ ~ 1000℃，传入值 0~1127|
 |  28   |     充电状态     |   charging_state    |     只读     |   enum   |       否       | 数值范围: 0~2   0:断开 1:充电  2：快充|
 |  30   |   内置场景索引   |     scene_index     |     读写     |   enum   |       否       | 枚举类型：1-100|
 |  31   | 修改经典蓝牙名称 |   classic_bt_name   |     读写     |   string   |       否       | 0-255字节，使用unicode的utf-8编码|
 |  32   |   RGB颜色矫正    |     rgb_adjust      |     读写     |   string   |       否       | 三个值 千分比  长度12    RRRRGGGGBBBB|
 |  33   |   灯珠点数详情   |     point_info      |     读写     |   string   |       否       | 三个值 点数+长+宽  长度12    NNNNHHHHWWWW|
-|  34   |      信号源      |    signal_source    |     读写     |   number   |       否       | 0~暂无范围|
+|  34   |      信号源      |    signal_source    |     读写     |   number   |       否       | 下限：0，上限待确认|
 |  35   | 幻彩点阵变化模式 |      dir_index      |     双向     |   enum   |       否       | 数值范围：0-6;<br> 0：固定； 1：左移； 2：右移； 3：下移； 4：上移； 5：闪烁； 6：呼吸；|
 |  36   |  文本字符总数量  |    text_char_num    |     只写     |   number   |       否       | 数值范围：0-10;|
 |  37   | 单个文本字符内容 |   text_char_point   |     只写     |   string   |       否       | 组合不同的文本字符显示，Value: 01HHHHSSSSTTTT...|
@@ -41,3 +41,9 @@
 |  40   |    平面diy点     |    diy_2d_point     |     只写     |   string   |       否       | 用于使用平面diy点的显示，不回复，Value: 000000HHHHSSSS0000HHHHSSSS...; <br>00:平面0，首包需在第二高位上置1，最后一包结束需在最高位置1，共有5张 0000:点位 HHHHSSSS:对应每个点位的颜色|
 |  41   |   幻彩图像模式   |   pincture_index    |     双向     |   enum   |       否       | 数值范围：0-19|
 |  43   |  点阵屏旋转方向    |   screen_dir    |     双向     |   number   |       否       | 数值范围：0-3|
+|  44   |  上电状态    |   boot_status    |     双向     |   number   |       否       | 枚举型：0:常开  1: 保持上一次  2: 常闭|
+|  44   |  工作模式    |   mode    |     双向     |   enum   |       否       | 枚举型：1:睡眠模式  2: 阅读模式  3: 休闲模式 4：工作模式|
+|  45   |  上灯亮度值    |   up_brightness    |     双向     |   number   |       否       | 数值范围：1-100|
+|  46   |  下灯亮度值    |   down_brightness    |     双向     |   number   |       否       | 数值范围：1-100|
+|  47   |  红灯亮度值    |   red_brightness    |     双向     |   number   |       否       | 数值范围：1-100|
+|  48   |  黄灯亮度值  |   yellow_brightness    |     双向     |   number   |       否       | 数值范围：1-100 |
