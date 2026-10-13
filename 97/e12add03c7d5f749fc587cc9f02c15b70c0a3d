@@ -1,0 +1,117 @@
+gateway_en.md
+  s_e15af12176f76b::t_3f6152e7789daf 1-10
+sensor_en.md
+  s_e15af12176f76b::t_357c335a788d74 1-11,13-18,25-28,30-40
+  s_e15af12176f76b::t_c9a11316452fd6 29
+  s_47c4542c1e6ce3::t_b7c8b6c521f710 12,19-22,24
+  s_47c4542c1e6ce3::t_3d88cd049ebb3e 23
+light_en.md
+  s_47c4542c1e6ce3::t_b7c8b6c521f710 27-29,36
+  s_e15af12176f76b::t_91a9b2403e0627 1-26,30-35,37-50
+readme.md
+  s_47c4542c1e6ce3::t_2f13ef10390c80 17-26,32
+  s_47c4542c1e6ce3::t_b7c8b6c521f710 11-14
+pet_trainer_en.md
+  s_e15af12176f76b::t_f39523a6f5ff59 1-12
+  s_e15af12176f76b::t_d83705e3367e42 13
+light_zh.md
+  s_e15af12176f76b::t_d453a7a08c2596 43-48
+  s_e15af12176f76b::t_6fb0b44e82ec78 29
+  s_47c4542c1e6ce3::t_b7c8b6c521f710 26-28,35
+  s_e15af12176f76b::t_682fc0db2430a4 49
+sensor_zh.md
+  s_e15af12176f76b::t_dd263b8f3fa846 1-7,9-10,12-17,24-27,29-40
+  s_47c4542c1e6ce3::t_3d88cd049ebb3e 22
+  s_e15af12176f76b::t_9cbb6596dac188 28
+  s_e15af12176f76b::t_a77751e8af5669 8
+  s_47c4542c1e6ce3::t_b7c8b6c521f710 11,18-21,23
+appliance_en.md
+  s_e15af12176f76b::t_419ded3151a3d3 15
+  s_47c4542c1e6ce3::t_b7c8b6c521f710 51,63
+  s_e15af12176f76b::t_13633abbae068a 14
+  s_e15af12176f76b::t_b0d4b6d93b9810 71
+  s_e15af12176f76b::t_0dae635f388593 1-13,18-50,52-62,64-70,72-89
+  s_e15af12176f76b::t_514b23f86a9575 16
+  s_e15af12176f76b::t_35234f488fbaac 17
+gateway_zh.md
+  s_e15af12176f76b::t_dd263b8f3fa846 1-10
+doorbell_en.md
+  s_e15af12176f76b::t_dd583fb497aeda 37
+  s_e15af12176f76b::t_510e524df60e8f 1-36,38-40
+readme_zh.md
+  s_47c4542c1e6ce3::t_b7c8b6c521f710 11-14
+  s_47c4542c1e6ce3::t_2f13ef10390c80 17-26,32
+motor_en.md
+  s_e15af12176f76b::t_d599a760b64262 1-23
+battery_en.md
+  s_e15af12176f76b::t_0233def05db7f7 37
+  s_e15af12176f76b::t_8ad4cf00ce127d 1-7,12-13,15-36,39-65,67-73
+  s_e15af12176f76b::t_40009cd20627c3 66
+  s_e15af12176f76b::t_831e7feda28c83 14,38
+  s_e15af12176f76b::t_cb66101e51a832 8-11
+motor_zh.md
+  s_e15af12176f76b::t_dd263b8f3fa846 1-22
+appliance_zh.md
+  s_e15af12176f76b::t_bcc65fa9c87ba8 16
+  s_e15af12176f76b::t_459f79870e7133 14
+  s_e15af12176f76b::t_c5ab42f746e4af 31
+  s_47c4542c1e6ce3::t_b7c8b6c521f710 62
+  s_e15af12176f76b::t_dd263b8f3fa846 1-12,17-23,26-30,32-61,63-88
+  s_e15af12176f76b::t_511c8acc17fa1f 24-25
+  s_e15af12176f76b::t_6784a24e980d95 13
+  s_e15af12176f76b::t_cd78b90393c1d9 15
+battery_zh.md
+  s_e15af12176f76b::t_1eb38aa21e0f39 66
+  s_e15af12176f76b::t_dd263b8f3fa846 1-7,12-13,15-36,39-65,67-75
+  s_e15af12176f76b::t_fa27126e630926 14,38
+  s_e15af12176f76b::t_682fc0db2430a4 76
+  s_e15af12176f76b::t_53a7179e255617 8-11
+  s_e15af12176f76b::t_665a98a1cf3c1c 37
+pet_trainer_zh.md
+  s_e15af12176f76b::t_dd263b8f3fa846 1-12,14
+  s_e15af12176f76b::t_edb969f4d72695 13
+electrician_en.md
+  s_47c4542c1e6ce3::t_b7c8b6c521f710 30,36,46,74
+  s_e15af12176f76b::t_3fd91d3f0dfc54 79
+  s_e15af12176f76b::t_f36f0989ee8d29 1-29,31-35,37-45,47-73,75-78,80-83
+electrician_zh.md
+  s_47c4542c1e6ce3::t_b7c8b6c521f710 30,36,74
+  s_e15af12176f76b::t_88847d0d008568 47
+  s_e15af12176f76b::t_de06008f156b33 79
+  s_e15af12176f76b::t_9f93c057680b6c 45,48-57,72-73,75,77-78,80-82
+  s_e15af12176f76b::t_5a844ad776af2e 58-71
+  s_e15af12176f76b::t_32353688500ffd 46
+  s_e15af12176f76b::t_f9e9ba42477261 76
+  s_e15af12176f76b::t_682fc0db2430a4 83
+passthrough_zh.md
+  s_e15af12176f76b::t_dd263b8f3fa846 1-5
+doorbell_zh.md
+  s_e15af12176f76b::t_04e3b147ba03fe 37
+  s_e15af12176f76b::t_dd263b8f3fa846 1-36,38-40
+passthrough_en.md
+  s_e15af12176f76b::t_8302a003d8b360 1-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "97e12add03c7d5f749fc587cc9f02c15b70c0a3d",
+  "prompts": {},
+  "sessions": {
+    "s_47c4542c1e6ce3": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a13358-b206-72d1-98e1-d30843ef4d48",
+        "model": "gpt-6-astra"
+      },
+      "human_author": "zhaozhenxiang <zhaozhenxiang@doit.am>"
+    },
+    "s_e15af12176f76b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "277c2216-0bfb-4a24-9909-f8d8bab2027f",
+        "model": "deepseek/deepseek-v4.1-flash"
+      },
+      "human_author": "zhaozhenxiang <zhaozhenxiang@doit.am>"
+    }
+  }
+}
